@@ -1,0 +1,40 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "thw:stillpine_log_strucked",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "stillpine_log_side_strucked",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "stillpine_log_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "stillpine_log_top",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:collision_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:display_name": "Stillpine Log Strucked"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "thw:frost_berries",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "frost_berries",
+            "minecraft:food": {
+                "can_always_eat": true,
+                "nutrition": 2,
+                "saturation_modifier": 2
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.5,
+                "start_sound": "item.food.eat"
+            },
+            "minecraft:display_name": {
+                "value": "Frost Berries"
+            }
+        }
+    }
+}

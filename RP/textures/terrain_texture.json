@@ -1,0 +1,59 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "The Hollow Winter",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"glass_bottle": {
+			"textures": "textures/blocks/glass_bottle"
+		},
+		"winterthorn": {
+			"textures": "textures/vegetation/winterthorn"
+		},
+		"stripped_stillpine_log_side": {
+			"textures": "textures/blocks/stripped_stillpine_log_side"
+		},
+		"stripped_stillpine_log_top": {
+			"textures": "textures/blocks/stripped_stillpine_log_top"
+		},
+		"stillpine_log_side": {
+			"textures": "textures/blocks/stillpine_log_side"
+		},
+		"stillpine_log_side_strucked": {
+			"textures": "textures/blocks/stillpine_log_side_strucked"
+		},
+		"stillpine_log_top": {
+			"textures": "textures/blocks/stillpine_log_top"
+		},
+		"stillsnow_side": {
+			"textures": "textures/blocks/stillsnow_side"
+		},
+		"stillsnow_top": {
+			"textures": "textures/blocks/stillsnow_top"
+		},
+		"stillsnow_dirt": {
+			"textures": "textures/blocks/stillsnow_dirt"
+		},
+		"stillpine_planks": {
+			"textures": "textures/blocks/stillpine_planks"
+		},
+		"stillpine_leaves": {
+			"textures": "textures/blocks/stillpine_leaves"
+		},
+		"rime_veined_stone": {
+			"textures": "textures/blocks/rime_veined_stone"
+		},
+		"stillpine_sapling": {
+			"textures": "textures/vegetation/stillpine_sapling"
+		},
+		"frost_berry": {
+			"textures": "textures/vegetation/frost_berry"
+		},
+		"large_frosted_mushroom": {
+			"textures": "textures/vegetation/large_frosted_mushroom"
+		},
+		"small_frosted_mushroom": {
+			"textures": "textures/vegetation/small_frosted_mushroom"
+		}
+	}
+}

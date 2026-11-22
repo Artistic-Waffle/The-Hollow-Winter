@@ -1,0 +1,34 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "thw:stillpine_leaves",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "stillpine_leaves",
+                    "render_method": "alpha_test_to_opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.unit_cube",
+                "culling": "thw:leaves_cull",
+                "culling_layer": "minecraft:culling_layer.leaves"
+            },
+            "minecraft:collision_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:display_name": "Stillpine Leaves"
+        }
+    }
+}

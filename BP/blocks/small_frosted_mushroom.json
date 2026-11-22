@@ -1,0 +1,30 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "thw:small_frosted_mushroom",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "small_frosted_mushroom",
+                    "render_method": "alpha_test_single_sided",
+                    "face_dimming": false
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.small_mushroom"
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [-5,0,-5],
+                "size": [10,16,10]
+            },
+            "minecraft:display_name": "Small Frosted Mushroom"
+        }
+    }
+}

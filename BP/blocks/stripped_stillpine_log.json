@@ -1,0 +1,40 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "thw:stripped_stillpine_log",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "stripped_stillpine_log_side",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "stripped_stillpine_log_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "stripped_stillpine_log_top",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:collision_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:display_name": "Stripped Stillpine Log"
+        }
+    }
+}

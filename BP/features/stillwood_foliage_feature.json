@@ -1,0 +1,42 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "thw:stillwood_foliage_feature"
+    },
+    "places_block": [
+      
+      {
+        "block": "thw:winterthorn",
+        "weight": 2
+      },
+      {
+        "block": "thw:large_frosted_mushroom",
+        "weight": 1
+      },
+      {
+        "block": "thw:small_frosted_mushroom",
+        "weight": 1
+      },
+      {
+        "block": "thw:frost_berry",
+        "weight": 2
+      }
+    ],
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:snow_layer"
+    ],
+    "may_attach_to": {
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "thw:stillsnow_block",
+        "thw:stillsnow_dirt",
+        "minecraft:snow",
+        "minecraft:snow_layer"
+      ]
+    }
+  }
+}

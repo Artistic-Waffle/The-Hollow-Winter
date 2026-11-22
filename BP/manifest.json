@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Verya"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "The Hollow Winter",
+		"description": "",
+		"min_engine_version": [ 1, 26, 0 ],
+		"uuid": "9d0f7f78-58ff-4f5d-8348-112381031a82",
+		"version": [ 1, 0, 0 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "c5d55e34-23aa-438b-9f0a-94feaeaee950",
+			"version": [ 1, 0, 0 ] },
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "13e47d7d-ca77-4f8b-92df-db2212ed980a",
+			"entry": "scripts/main.js",
+			"version": [ 1, 0, 0 ]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "6e30df82-8002-4b87-8868-7d6c3deaad25",
+			"version": [ 1, 0, 0 ]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.3.0"
+		}
+	]
+}

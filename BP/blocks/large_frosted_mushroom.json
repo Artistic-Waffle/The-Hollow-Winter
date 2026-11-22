@@ -1,0 +1,29 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "thw:large_frosted_mushroom",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "large_frosted_mushroom",
+                    "render_method": "alpha_test_single_sided"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.mushroom"
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [-5,0,-5],
+                "size": [10,16,10]
+            },
+            "minecraft:display_name": "Large Frosted Mushroom"
+        }
+    }
+}

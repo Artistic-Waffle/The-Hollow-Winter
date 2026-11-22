@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "The Hollow Winter",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"frost_berries": {
+			"textures": "textures/items/frost_berries"
+		}
+	}
+}
