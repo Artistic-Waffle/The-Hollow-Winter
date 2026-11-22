@@ -7,9 +7,9 @@
     },
     "components": {
       "minecraft:climate": {
-        "temperature": 15,
-        "downfall": 0.0,
-        "snow_accumulation": [0.125, 0.125]
+        "temperature": -15,
+        "downfall": 0.35,
+        "snow_accumulation": [ 0.0, 0.0 ]
       },
       "minecraft:surface_builder": {
         "builder": {

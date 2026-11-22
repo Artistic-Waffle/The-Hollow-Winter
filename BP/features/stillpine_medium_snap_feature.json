@@ -1,0 +1,23 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "thw:stillpine_medium_snap_feature"
+    },
+    "feature_to_snap": "thw:stillpine_medium_feature",
+    "search_range": 48,
+    "surface": "floor",
+    "allow_air_placement": true,
+    "allow_non_air_placement": true,
+    "allow_underwater_placement": false,
+    "allowed_surface_blocks": [
+      "thw:stillsnow_block",
+      "thw:stillsnow_dirt",
+      "minecraft:grass_block",
+      "minecraft:dirt",
+      "minecraft:snow",
+      "minecraft:snow_layer"
+    ],
+    "embed_in_surface": false
+  }
+}

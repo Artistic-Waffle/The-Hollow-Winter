@@ -24,6 +24,9 @@
                 "origin": [-8,0,-8],
                 "size": [16,16,16]
             },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "snowlogging"
+            },
             "minecraft:display_name": "Frost Berry"
         }
     }

@@ -24,6 +24,9 @@
                 "origin": [-5,0,-5],
                 "size": [10,16,10]
             },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "snowlogging"
+            },
             "minecraft:display_name": "Winterthorn"
         }
     }

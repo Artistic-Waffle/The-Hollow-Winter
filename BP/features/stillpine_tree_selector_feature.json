@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "thw:stillpine_tree_selector_feature"
+    },
+    "features": [
+      [
+        "thw:stillpine_baby_snap_feature",
+        26
+      ],
+      [
+        "thw:stillpine_small_snap_feature",
+        29
+      ],
+      [
+        "thw:stillpine_medium_snap_feature",
+        24
+      ],
+      [
+        "thw:stillpine_large_snap_feature",
+        15
+      ],
+      [
+        "thw:stillpine_mega_snap_feature",
+        6
+      ]
+    ]
+  }
+}
